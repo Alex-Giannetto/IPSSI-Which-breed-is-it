@@ -1,0 +1,9 @@
+.fileInfo-preview-image {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-height: 60vh;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  margin: 0;
+}

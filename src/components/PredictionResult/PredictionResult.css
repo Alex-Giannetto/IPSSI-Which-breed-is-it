@@ -1,0 +1,44 @@
+.predictions {
+  padding: 0 1em;
+  margin-bottom: 20px;
+  width: 100%;
+  animation: slit-in-vertical 0.3s ease-in-out both;
+  height: auto;
+  line-height: 1.5em;
+}
+
+.predictions-heading {
+  color: var(--font-color);
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-align: left;
+  font-family: var(--font-title);
+}
+
+.predictions-subheading {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--red);
+  margin-bottom: 4px;
+}
+
+.predictions .description span {
+  display: inline-block;
+  color: var(--font-title);
+  margin-top: 10px;
+}
+
+@keyframes slit-in-vertical {
+  0% {
+    /*transform: translateY(-200px);*/
+    opacity: 0;
+  }
+  100% {
+    /*transform: translateY(0);*/
+    opacity: 1;
+  }
+}
+
+a{
+  color: var(--font-color);
+}

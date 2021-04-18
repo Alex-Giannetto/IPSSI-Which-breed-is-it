@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+
+:root {
+  --bg-color: #222222;
+  --bg-card-color: #303030;
+  --white: #fff;
+  --gray: #f4f4f4;
+  --red: #e57878;
+  --blue: #9599e2;
+
+  --border-radius: 15px;
+
+  --font-color: #FFF;
+  --font-title: 'Helvetica Neue', Helvetica, sans-serif;
+  --font-body: 'Roboto', Arial, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: var(--font-body);
+  background-color: var(--bg-color);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--font-color);
+}
+
+h2 {
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.container {
+  padding: 1em;
+}
+
+.isCapitalize {
+  text-transform: capitalize;
+}
